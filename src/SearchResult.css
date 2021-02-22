@@ -1,0 +1,87 @@
+.searchResult {
+	display: flex;
+	position: relative;
+	margin: 20px;
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+	cursor: pointer;
+}
+
+.searchResult:hover {
+	opacity: 0.7;
+}
+
+/* left part */
+.searchResult img {
+	height: 200px;
+	width: 350px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+/* 能跟著視窗縮放改變大小 */
+/* .searchResult img {
+	object-fit: contain;
+	min-width: 400px;
+	min-width: 300px;
+	border-radius: 10px;
+	width: 40%;
+} */
+
+/* left part */
+
+/* right part */
+.searchResult__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 20px;
+}
+
+.searchResult__heartIcon {
+	position: absolute;
+	top: 20px;
+	right: 40px;
+}
+
+/* info Top */
+.searchResult__infoTop {
+	width: 40vw;
+}
+
+.searchResult__infoTop h2 {
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.searchResult__infoTop p {
+	margin-top: 10px;
+	font-size: 13px;
+	color: gray;
+}
+/* info Top */
+/* info bottom */
+.searchResult__infoBottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.searchResult__rateIcon {
+	color: red;
+}
+
+.infoBottom__rate {
+	display: flex;
+	align-items: center;
+}
+
+.infoBottom__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.infoBottom__price p {
+    text-align: right;
+}
+/* info bottom */
+/* right part */
