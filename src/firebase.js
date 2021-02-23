@@ -3,7 +3,7 @@ import firebase from "firebase";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCBtDkMZ0MFRCevviwyogp68ZfbZ_MM2fI",
+  apiKey: "",
   authDomain: "airbnb-clone-app-3d650.firebaseapp.com",
   databaseURL: "https://airbnb-clone-app-3d650-default-rtdb.firebaseio.com",
   projectId: "airbnb-clone-app-3d650",
